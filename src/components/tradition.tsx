@@ -36,8 +36,17 @@ export const Tradition = () => {
                 />
               </div>
             </div>
-            <div className="bg-[#070807] relative text-center p-5">
-              <Image src="/tradition.png" fill alt="tradition" />
+            <div className="relative text-center p-5 bg-repeat-space overflow-hidden bg-black h-52">
+              <div
+                className="absolute w-full h-full top-0 left-0  background-move"
+                style={{
+                  backgroundColor: "black",
+                  backgroundImage: "url(/bg.png)",
+                  backgroundSize: "400px 400px",
+                  backgroundPosition: "center",
+                  filter: "blur(50px)",
+                }}
+              ></div>
               <h2 className="text-white relative z-10 sree-krushnadevaraya-regular text-2xl mb-2">
                 Ceremonial Okura Matcha
               </h2>

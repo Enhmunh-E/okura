@@ -6,3 +6,4 @@ export * from "./tradition";
 export * from "./detail";
 export * from "./ritual";
 export * from "./source";
+export * from "./footer";

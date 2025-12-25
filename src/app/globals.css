@@ -148,3 +148,17 @@ body {
   width: 0;
   height: 0;
 }
+
+/* Animation for moving backgroundImage go left transition infinitely */
+@keyframes moveBackground {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -800px -800px;
+  }
+}
+
+.background-move {
+  animation: moveBackground 30s linear infinite;
+}
