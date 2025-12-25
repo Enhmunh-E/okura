@@ -159,6 +159,20 @@ body {
   }
 }
 
+/* Animation for moving backgroundImage go left transition infinitely */
+@keyframes moveFooterBackground {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -1200px -1200px;
+  }
+}
+
 .background-move {
   animation: moveBackground 30s linear infinite;
+}
+
+.background-footer-move {
+  animation: moveFooterBackground 30s linear infinite;
 }

@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <footer className="bg-black text-white py-8 relative">
       <div
-        className="absolute w-full h-full top-0 left-0  background-move"
+        className="absolute w-full h-full top-0 left-0  background-footer-move"
         style={{
           backgroundColor: "black",
           backgroundImage: "url(/bg.png)",
